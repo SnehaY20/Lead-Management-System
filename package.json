@@ -1,0 +1,20 @@
+{
+  "name": "key-account-manager",
+  "version": "1.0.0",
+  "description": "Backend for restaurant management using Node, Express and MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "author": "Sneha Yadav",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "mongoose": "^8.9.2"
+  }
+}
